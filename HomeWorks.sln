@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork1_RazorPagesMovies"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork2_EFCoreWithRazorPages", "HomeWork2_EFCoreWithRazorPages\HomeWork2_EFCoreWithRazorPages.csproj", "{D399C7E8-9E9E-4795-9356-8836CB4B9A99}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimeLog", "TimeLog", "{B1A3C10D-139D-4FD6-837D-500D904BC7E9}"
+	ProjectSection(SolutionItems) = preProject
+		Time recording log.xlsx = Time recording log.xlsx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
