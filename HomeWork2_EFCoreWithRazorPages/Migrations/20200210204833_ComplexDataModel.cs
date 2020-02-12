@@ -91,7 +91,7 @@ namespace HomeWork2_EFCoreWithRazorPages.Migrations
                 name: "DepartmentID",
                 table: "Course",
                 nullable: false,
-                defaultValue: 1);
+                defaultValue: 1);  
 
             migrationBuilder.CreateTable(
                 name: "OfficeAssignment",
