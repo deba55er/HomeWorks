@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using HomeWork2_EFCoreWithRazorPages.Data;
 using HomeWork2_EFCoreWithRazorPages.Models;
 
-namespace HomeWork2_EFCoreWithRazorPages.Pages.Courses
+namespace HomeWork2_EFCoreWithRazorPages
 {
     public class EditModel : PageModel
     {

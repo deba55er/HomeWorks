@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using HomeWork2_EFCoreWithRazorPages.Data;
 using HomeWork2_EFCoreWithRazorPages.Models;
 
-namespace HomeWork2_EFCoreWithRazorPages.Pages.Courses
+namespace HomeWork2_EFCoreWithRazorPages
 {
     public class IndexModel : PageModel
     {
@@ -19,15 +19,12 @@ namespace HomeWork2_EFCoreWithRazorPages.Pages.Courses
             _context = context;
         }
 
-        public IList<Course> Courses { get; set; }
-
+        public IList<Course> Course { get;set; }
 
         public async Task OnGetAsync()
         {
-            Courses = await _context.Courses
-                .Include(c => c.Department)
-                .AsNoTracking()
-                .ToListAsync();
+            Course = await _context.Courses
+                .Include(c => c.Department).ToListAsync();
         }
     }
 }
