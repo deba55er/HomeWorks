@@ -8,7 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using HomeWork2_EFCoreWithRazorPages.Data;
 using HomeWork2_EFCoreWithRazorPages.Models;
 
-namespace HomeWork2_EFCoreWithRazorPages
+namespace HomeWork2_EFCoreWithRazorPages.Pages.Courses
+
 {
     public class DetailsModel : PageModel
     {
