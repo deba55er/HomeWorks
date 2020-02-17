@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using HomeWork2_EFCoreWithRazorPages.Data;
 using HomeWork2_EFCoreWithRazorPages.Models;
 
-namespace HomeWork2_EFCoreWithRazorPages
+namespace HomeWork2_EFCoreWithRazorPages.Pages.Courses
 {
     public class IndexModel : PageModel
     {
@@ -20,8 +20,6 @@ namespace HomeWork2_EFCoreWithRazorPages
         }
 
         public IList<Course> Courses { get; set; }
-
-        public IList<Course> Course { get;set; }
 
         public async Task OnGetAsync()
         {
