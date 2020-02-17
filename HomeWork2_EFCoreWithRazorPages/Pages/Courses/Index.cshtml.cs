@@ -19,12 +19,16 @@ namespace HomeWork2_EFCoreWithRazorPages
             _context = context;
         }
 
+        public IList<Course> Courses { get; set; }
+
         public IList<Course> Course { get;set; }
 
         public async Task OnGetAsync()
         {
-            Course = await _context.Courses
-                .Include(c => c.Department).ToListAsync();
+            Courses = await _context.Courses
+                .Include(c => c.Department)
+                .AsNoTracking()
+                .ToListAsync();
         }
     }
 }
