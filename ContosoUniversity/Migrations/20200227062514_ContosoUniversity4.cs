@@ -1,9 +1,10 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ContosoUniversity.Migrations
 {
-    public partial class uus_ee : Migration
+    public partial class ContosoUniversity4 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
