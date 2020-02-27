@@ -5,10 +5,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ContosoUniversity.Models
 {
-    public class Instructor
+    public class Instructor : Person
     {
-        public int ID { get; set; }
-
+        
         [Required]
         [Display(Name = "Last Name")]
         [StringLength(50)]
